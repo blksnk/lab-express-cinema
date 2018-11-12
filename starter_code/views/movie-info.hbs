@@ -1,0 +1,34 @@
+
+<div class="info">	
+	
+	<div class="img-container">
+		<img src="{{selectMovie.image}}" alt="movie poster">
+	</div>
+
+	<div class="text-container">
+		<a href="/movies">Go back</a>
+
+		<h1>{{selectMovie.title}}</h1>
+
+		<h2>Director: {{selectMovie.director}}</h2>
+
+		<h3>Stars:</h3>
+		<ul class="stars">
+			{{#each selectMovie.stars}}
+
+			<li><p>{{this}}</p></li>
+
+			{{/each}}
+		</ul>
+
+		<p>{{selectMovie.description}}</p>
+
+		<ul class="show-times">
+			{{#each selectMovie.showtimes}}
+
+			<li><p>{{this}}</p></li>
+
+			{{/each}}
+		</ul>			
+	</div>
+</div>

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.index-page {
+  height: 100vh;
+  widows: 100vw;
+  background-image: url(../images/cinema.jpg);
+  background-size: cover;
+  display: flex; }
+  .index-page .text-container {
+    margin-left: 55%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 40%; }
+    .index-page .text-container h1 {
+      color: white;
+      font-size: 8em;
+      margin: 0; }
+    .index-page .text-container a {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 40px;
+      background-color: white;
+      text-decoration: none;
+      color: #00B7FF;
+      font-size: 2em;
+      width: 250px;
+      text-align: center; }
+
+.movie-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .movie-list .one-movie {
+    margin: 20px 3%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .movie-list .one-movie img {
+      width: 350px;
+      -webkit-box-shadow: 0px 5px 13px 3px rgba(80, 80, 80, 0.4);
+      -moz-box-shadow: 0px 5px 13px 3px rgba(80, 80, 80, 0.4);
+      box-shadow: 0px 5px 13px 3px rgba(80, 80, 80, 0.4); }
+    .movie-list .one-movie a {
+      text-decoration: none;
+      color: #00B7FF;
+      font-size: 16px; }
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  .info .img-container {
+    padding-right: 80px;
+    display: flex;
+    justify-content: center; }
+    .info .img-container img {
+      width: 270px;
+      height: 400px;
+      -webkit-box-shadow: 0px 5px 13px 3px rgba(80, 80, 80, 0.4);
+      -moz-box-shadow: 0px 5px 13px 3px rgba(80, 80, 80, 0.4);
+      box-shadow: 0px 5px 13px 3px rgba(80, 80, 80, 0.4); }
+  .info .text-container {
+    width: 55%;
+    height: 60vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: black; }
+    .info .text-container a {
+      color: #00B7FF;
+      text-decoration: none;
+      font-size: 16px; }
+    .info .text-container h1, .info .text-container h3 {
+      margin: 5px 0; }
+    .info .text-container .show-times {
+      list-style-type: none; }
+      .info .text-container .show-times li {
+        display: inline-block;
+        padding: 0 5px; }
+
+/*# sourceMappingURL=style.css.map */
